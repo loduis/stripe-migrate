@@ -67,5 +67,6 @@ $migrate->all(function ($err, $to, $from, $customer) {
     echo 'Customer: -> ', $customer, PHP_EOL;
     echo 'Old subscription: -> ', $from, PHP_EOL;
     echo 'New subscription: -> ', $to, PHP_EOL; // you need store in database
+    echo '---------------------------------', PHP_EOL;
 })
 ```
