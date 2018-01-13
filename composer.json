@@ -1,0 +1,24 @@
+{
+    "name": "loduis/stripe-migrate",
+    "description": "Migrate your stripe subscription to new account, this is only on clone",
+    "type": "library",
+    "require": {
+        "stripe/stripe-php": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stripe\\Tools\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loduis Madariaga",
+            "email": "loduis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
