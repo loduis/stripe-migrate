@@ -19,7 +19,7 @@ This is an simple tool for migrate stripe subscription, for run this process you
 Migrate the subscription the one customer
 
 ```php
-use Stripe\Tools\Migrate;
+use Stripe\Tools\Migrate\Subscription as Migrate;
 
 require './vendor/autoload.php';
 

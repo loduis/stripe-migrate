@@ -3,7 +3,8 @@
     "description": "Migrate your stripe subscription to new account, this is only on clone",
     "type": "library",
     "require": {
-        "stripe/stripe-php": "^5.8"
+        "stripe/stripe-php": "^5.8",
+        "loduis/stripe-finder": "master"
     },
     "autoload": {
         "psr-4": {
