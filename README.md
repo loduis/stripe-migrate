@@ -60,7 +60,7 @@ $migrate = new Migrate(
     'stripe to account api key'
 );
 
-$migrate->all(function ($err, $to, $from, $customer) {
+$migrate->run(function ($err, $to, $from, $customer) {
     if ($err) {
         throw $err;
     }
